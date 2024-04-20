@@ -10,4 +10,4 @@ Sou um texto longo com formatação de parágrafo.
 1. Primeiro passo
 2. Segundo passo
 
-*Exemplo de tecnologias aplicada ao projeto* em uma frase de destaque
+*Exemplo de tecnologia aplicada a projeto* em uma frase de destaque
