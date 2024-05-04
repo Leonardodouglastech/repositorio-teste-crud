@@ -1,4 +1,8 @@
 import mysql.connector
+<<<<<<< HEAD
+=======
+
+>>>>>>> fe8f560f0132a544fc4092ee955347f0345b52d0
 import mysql
 
 def conectarBd():
@@ -37,6 +41,7 @@ def selecionarTodosProdutos():
     resultado_consulta = cursor.fetchall()
     return resultado_consulta
 
+<<<<<<< HEAD
 def selecionarUmProduto(id):
     conexao, cursor = conectarBd()
     comando_sql = f'select id, nome, preco, imagem from produtos where id = "{id}"'
@@ -44,6 +49,8 @@ def selecionarUmProduto(id):
     resultado_consulta = cursor.fetchall()
     return resultado_consulta
 
+=======
+>>>>>>> fe8f560f0132a544fc4092ee955347f0345b52d0
 
 # funcao atualizar
 def atualizarPreco(id: str, novo_valor: float):
