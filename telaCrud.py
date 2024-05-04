@@ -1,6 +1,6 @@
 import streamlit as st
 
-from funcoesCrud import  cadastrar
+from funcoesCrud import cadastrar
 
 
 
